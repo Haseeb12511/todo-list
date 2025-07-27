@@ -2,7 +2,7 @@
   "name": "todo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://your-username.github.io/your-repo-name",
+  "homepage": "https://Haseeb12511.github.io/todo-list",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
