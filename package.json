@@ -2,15 +2,21 @@
   "name": "todo",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://your-username.github.io/your-repo-name",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "npm run build && npm run export && gh-pages -d out"
   },
   "dependencies": {
+    "next": "15.4.4",
     "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "next": "15.4.4"
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
